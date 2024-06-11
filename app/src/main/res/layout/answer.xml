@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fon2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Пожалуйста, введите цифры по порядку для каждой фигуры без пробелов,"
+        android:textColor="#6A93D4"
+        android:textSize="30sp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="сначала идёт форма, затем - цвет:"
+        android:textColor="#6A93D4"
+        android:textSize="30sp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Форма: круг-0; прямоугольник-1; квадрат-2;"
+        android:textColor="#6A93D4"
+        android:textSize="30sp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Цвет: красный-0; зелёный-1; розовый-2; бирюзовый-3."
+        android:textColor="#6A93D4"
+        android:textSize="30sp"
+        android:textStyle="italic"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#6A93D4"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:id="@+id/ans"/>
+    <Button
+        android:id="@+id/chek"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#113C42"
+        android:onClick="check"
+        android:text="Проверить ответ"
+        android:textColor="#42A5F5" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#6A93D4"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:id="@+id/greet"/>
+
+</LinearLayout>

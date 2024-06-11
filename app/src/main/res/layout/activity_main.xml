@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fon2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Hi"
+        android:textColor="#6A93D4"
+        android:textSize="30sp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100sp"/>
+
+    <Button
+        android:id="@+id/easy"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#113C42"
+        android:onClick="apple1"
+        android:text="@string/easy_peasy"
+        android:textColor="#42A5F5" />
+
+    <Button
+        android:id="@+id/middle"
+        android:layout_width="125sp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#113C42"
+        android:onClick="apple2"
+        android:text="@string/middle"
+        android:textColor="#42A5F5" />
+
+    <Button
+        android:id="@+id/hard"
+        android:layout_width="125sp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#113C42"
+        android:onClick="apple3"
+        android:text="@string/hard"
+        android:textColor="#42A5F5" />
+
+
+
+
+</LinearLayout>

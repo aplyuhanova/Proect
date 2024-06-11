@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hard">hard</string>
+    <string name="middle">middle</string>
+    <string name="easy_peasy">easy_peasy</string>
+    <string name="Hi"><![CDATA[Привет!Хочешь проверить свою внимательность? Ты в нужном месте! Сначала выбери уровень игры<3]]></string>
+</resources>
